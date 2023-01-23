@@ -1,0 +1,82 @@
+
+*{
+  margin: 0;
+      box-sizing: border-box;
+}
+
+.header{
+  background-color: rgb(222, 229, 235);
+  display: flex;
+  max-width: 600px;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+
+}
+
+.blog-header{
+  color: rgb(219, 21, 193);
+}
+
+.header .container{
+  margin-left: auto;
+
+}
+.container a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 16px;
+  color: blue;
+
+
+}
+.container a:hover{
+  color: white;
+}
+.content{
+  margin:40px auto;
+  max-width: 600px;
+}
+
+.logs{
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding: 10px;
+
+}
+
+.logs a{
+  text-decoration: none;
+}
+.head-autor{
+  color: rgb(8, 44, 202);
+
+}
+.head-autor p{
+  margin-left:10px;
+}
+.logs:hover{
+  box-shadow: 4px 4px 4px 4px rgb(6, 28, 145) ;
+}
+.loading{
+  color: rgba(51, 12, 53, 0.349);
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+.testing{
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding: 10px;
+  background-color: rgb(229, 121, 233);
+}
+.testing:hover{
+  box-shadow: 4px 4px 4px rgb(219, 21, 193) ;
+}
+.forms{
+text-align: center;
+}
